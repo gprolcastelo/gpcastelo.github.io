@@ -15,7 +15,12 @@ layout: default
 
 <ul class="quicklinks">
   {% for link in site.data.social %}
-  <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+  <li>
+    <a href="{{ link.url }}" title="{{ link.label }}" aria-label="{{ link.label }}" target="_blank" rel="noopener">
+      {% include icon.html icon=link.icon %}
+      <span class="visually-hidden">{{ link.label }}</span>
+    </a>
+  </li>
   {% endfor %}
 </ul>
 

@@ -1,12 +1,18 @@
 - label: "ORCID"
+  icon: "orcid"
   url: "https://orcid.org/XXXX-XXXX-XXXX-XXXX"   # TODO: replace with your ORCID URL
 - label: "Google Scholar"
+  icon: "scholar"
   url: "https://scholar.google.com/citations?user=XXXXXXX"   # TODO: replace with your Scholar profile
 - label: "LinkedIn"
+  icon: "linkedin"
   url: "https://www.linkedin.com/in/XXXXXXX"   # TODO: replace with your LinkedIn profile
 - label: "Bluesky"
+  icon: "bluesky"
   url: "https://bsky.app/profile/XXXXXXX"   # TODO: replace with your Bluesky handle
 - label: "GitHub"
+  icon: "github"
   url: "https://github.com/gpcastelo"
 - label: "Email"
+  icon: "email"
   url: "mailto:galileomilkharmonica@duck.com"

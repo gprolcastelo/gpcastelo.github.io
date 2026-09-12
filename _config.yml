@@ -4,10 +4,9 @@ url: "https://gpcastelo.github.io"
 baseurl: ""
 
 markdown: kramdown
+theme: null
 plugins:
   - jekyll-feed
-
-permalink: /blog/:title/
 
 defaults:
   - scope:
@@ -15,6 +14,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+      permalink: "/blog/:title/"
   - scope:
       path: ""
     values:
@@ -25,3 +25,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENSE
+  - vendor
+  - .bundle
+  - node_modules
