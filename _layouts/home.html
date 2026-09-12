@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<section class="hero">
+  <img src="{{ '/assets/images/headshot-placeholder.svg' | relative_url }}"
+       alt="Profile photo" class="headshot">
+  <div class="hero-text">
+    <h1>{{ page.title }}</h1>
+    <div class="bio">
+      {{ content }}
+    </div>
+    <a class="cv-button" href="{{ '/assets/cv/CV.pdf' | relative_url }}">Download CV (PDF)</a>
+  </div>
+</section>
+
+<ul class="quicklinks">
+  {% for link in site.data.social %}
+  <li><a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a></li>
+  {% endfor %}
+</ul>
+
+<!-- OPTIONAL FUTURE: a Spline 3D embed could go in the hero section, e.g.
+     <iframe src="https://my.spline.design/XXXX" frameborder="0" width="100%" height="400"></iframe>
+-->

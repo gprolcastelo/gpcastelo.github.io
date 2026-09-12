@@ -1,0 +1,7 @@
+# Add one entry per publication. doi_url and pdf_url are optional — omit or leave blank if not applicable.
+- title: "[TODO: Publication title]"
+  authors: "[TODO: A. Author, B. Author, C. Author]"
+  venue: "[TODO: Journal or conference name]"
+  year: 2024
+  doi_url: "https://doi.org/XX.XXXX/XXXXXXX"   # TODO
+  pdf_url: ""   # TODO (optional)

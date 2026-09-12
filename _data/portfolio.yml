@@ -1,0 +1,5 @@
+# Add one entry per project/repo you want to showcase.
+- name: "[TODO: Repo name]"
+  description: "[TODO: One or two sentences on what it does and why it matters.]"
+  repo_url: "https://github.com/gpcastelo/TODO-repo-name"
+  image: "/assets/images/portfolio/placeholder-figure.svg"

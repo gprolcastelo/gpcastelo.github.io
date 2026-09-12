@@ -1,0 +1,27 @@
+title: "Guillermo Prol-Castelo"
+description: "Personal academic site — research, publications, and outreach"
+url: "https://gpcastelo.github.io"
+baseurl: ""
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "page"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
