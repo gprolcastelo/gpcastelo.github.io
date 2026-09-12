@@ -1,4 +1,4 @@
-# gpcastelo.github.io
+# gprolcastelo.github.io
 
 Personal academic site for Guillermo Prol-Castelo, built with [Jekyll](https://jekyllrb.com/) and served via GitHub Pages.
 
